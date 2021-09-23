@@ -1,3 +1,4 @@
+# telebot from Netology course "Junior Python-developer"
 import telebot
 import random
 
@@ -5,7 +6,7 @@ token = 'TOKEN'
 
 bot = telebot.TeleBot(token)
 
-RANDOM_TASKS = ["Пойти пожрать!", "Пойти посрать!", "Пойти гулять!", "Пойти поспать!"]
+RANDOM_TASKS = ["Пойти пожрать!", "Пойти поиграть!", "Пойти погулять!", "Пойти поспать!"]
 
 HELP = """
 /help - вывести список доступных команд
